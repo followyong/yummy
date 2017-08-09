@@ -14,7 +14,6 @@ class AlertBox extends Component {
       e.preventDefault()
     });
   }
-
   render() {
     return(
       <div id="fixed" ref={value => { this.alertDiv = value }}
